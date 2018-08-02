@@ -115,7 +115,7 @@ p.product-name-subtext{
 
 .toast{
 	overflow: hidden;
-	background: #51555C;
+	background: rgba(81, 85, 92, 0.95);
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 14px;
@@ -130,6 +130,7 @@ p.product-name-subtext{
 	z-index: 2;
 	line-height: 140%;
 }
+
 .toast a{
 	text-decoration: none;
 	color: #FFFFFF;
@@ -251,9 +252,8 @@ li{
 
 #feedback{
 	background: #F0F2F3;
-	padding-top: 150px;
-	padding-bottom: 150px;
-	background-image: url(../img/background-image-2.svg);
+	padding-top: 120px;
+	padding-bottom: 130px;
 	background-position: center; 
 	background-size: 80%;
 }
@@ -340,7 +340,7 @@ li{
 
 }
 	#feedback{
-	padding-top: 80px;
+	padding-top: 70px;
 	}
 	ul{
 		padding-bottom: 0px;
