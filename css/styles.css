@@ -115,7 +115,7 @@ p.product-name-subtext{
 
 .toast{
 	overflow: hidden;
-	background: rgba(90, 96, 106, 0.95);
+	background: rgba(64, 69, 76, 0.95);
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 14px;
@@ -184,7 +184,7 @@ p.product-name-subtext{
 }
 
 footer{
-	background: #5A606A;
+	background: #40454C;
 	padding-top: 50px;
 	padding-bottom: 33px;
 }
