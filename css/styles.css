@@ -184,7 +184,7 @@ p.product-name-subtext{
 }
 
 footer{
-	background: #51555C;
+	background: rgba(20, 57, 118);
 	padding-top: 50px;
 	padding-bottom: 33px;
 }
@@ -211,7 +211,7 @@ ul{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 14px;
-	color: #9DA7AB;
+	color: #498DFF;
 	list-style-type: none;
 	padding-bottom: 40px;
 	display: inline;
@@ -226,7 +226,7 @@ ul a{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 14px;
-	color: #9DA7AB;
+	color: #498DFF;
 }
 
 li a:hover{
