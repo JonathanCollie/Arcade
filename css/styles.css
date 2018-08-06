@@ -111,6 +111,7 @@ p.product-name-subtext{
 
 #view-all{
 	padding: 15px;
+	font-weight: 300;
 }
 
 .toast{
@@ -164,7 +165,7 @@ p.product-name-subtext{
 
 #header-text{
 	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
+	font-size: 15px;
 	color: #FFFFFF;
 	text-align: center;
 	line-height: 26px;
@@ -173,6 +174,7 @@ p.product-name-subtext{
 	padding-bottom: 105px;
 		padding-left: 50px;
 	padding-right: 50px;
+	font-weight: 400;
 }
 #header-text a{
 	text-decoration: none;
@@ -184,9 +186,8 @@ p.product-name-subtext{
 }
 
 footer{
-	background: #5A606A;
+	background-color: #51555C;
 	padding-top: 50px;
-	padding-bottom: 33px;
 }
 
 footer p{
@@ -213,12 +214,12 @@ ul{
 	font-size: 14px;
 	color: #9DA7AB;
 	list-style-type: none;
-	padding-bottom: 40px;
 	display: inline;
 	float: left;
 	max-width: 165px;
-	padding-right: 40px;
+	padding-right: 50px;
 	padding-left: 40px;
+	padding-bottom: 80px;
 }
 
 ul a{
@@ -226,7 +227,7 @@ ul a{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 14px;
-	color: #9DA7AB;
+	color: #AAB0BA;
 }
 
 li a:hover{
@@ -244,13 +245,14 @@ li{
 }
 
 #footer-p{
+	background-color: #40454C;
 	clear: both;
 }
 
 #feedback{
 	background: #F0F2F3;
 	padding-top: 130px;
-	padding-bottom: 158px;
+	padding-bottom: 175px;
 	background-position: center; 
 	background-size: 80%;
 	background-image: url(../img/background-image-2.svg);
@@ -260,36 +262,37 @@ li{
 	display:block; 
 	height: 45px;
 	width: 155px;
-	background: #2979FF;
+	background: #F0F6FF;
+	border: 1px solid #2979FF;
 	border-radius: 4px;
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow: 6px 32px 53px -17px rgba(46,144,255,0.7);
+	box-shadow: 6px 32px 53px -17px rgba(81,85,92,0.3);
 	text-decoration: none;
+		color: #2979FF;
 }
 
 .button:hover{
 	display:block; 
 	height: 45px;
 	width: 155px;
-	background: #498DFF;
-	transition: 0.3s ease;
+	background: #2979FF;
 	text-decoration: none;
+	color: white;
 }
 
 .button p{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 	font-size: 16px;
-	color: #FFFFFF;
 	text-align: center;
 	vertical-align: middle;
-	line-height: 45px;     /* the same as your div height */
+	line-height: 14px;     /* the same as your div height */
 }
 
 .feedback-text{
 	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
+	font-size: 15px;
 	color: #000000;
 	text-align: center;
 	line-height: 19px;
@@ -297,6 +300,7 @@ li{
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 50px;
+	
 }
 
 #featured-models{
@@ -305,7 +309,10 @@ li{
 	}
 
 	#footer-p{
-	padding-top: 20px;
+	padding-top: 15px;
+		padding-bottom: 15px;
+		font-size: 14px;
+		margin: 0px;
 }
 	
 
@@ -331,7 +338,6 @@ li{
 		text-align: center;
 		line-height: 26px;
 		padding-bottom: 120px;
-		font-weight: 500;
 	}
 	#featured-header{
 	padding-top: 65px;
@@ -345,9 +351,6 @@ li{
 		padding-left: 30px;
 	}
 	
-	#footer-p{
-	padding-top: 60px;
-}
 	#featured-models{
 	height: auto;
 	}
@@ -365,6 +368,7 @@ li{
 	}
 	.long{
 	display: inline;
+		padding-bottom: 70px;
 }
 }
 
